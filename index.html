@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu compra Ya</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/jquery-3.5.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <p href="#" class="logo">Tu Compra Ya!!!</p>
+        <ul>
+            <li class="menu"><a href="#">Home</a></li>
+            <li class="menu"><a href="views/register.html">Registro</a></li>
+            <li class="menu"><a href="views/login.html">Ingresar</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+    </section>
+    <div class="trabajo">
+        <p>Con los <strong>mejores</strong> servicios del mercado</p>
+    </div>
+    <section class="servicios">
+        <div>
+            <img src="css/img/entrega.png">
+            <p>Entrega puerta a puerta y a tiempo</p>
+        </div>
+        <div>
+            <img src="css/img/estar.png">
+            <p>Productos frescos</p>
+        </div>
+        <div>
+            <img src="css/img/carro.png">
+            <p>Compras en linea de forma segura</p>
+        </div>
+        <div>
+            <img src="css/img/licor.png">
+            <p>Entrega y distribución de licores</p>
+        </div>
+    </section>
+
+    <div class="trabajo">
+        <p>Trabajamos con las <strong>grandes</strong> marcas de colombia</p>
+    </div>
+    <div class="marcas">
+        <div>
+            <img src="css/img/Productos.png">
+        </div>
+        <div>
+            <p>"Tenemos alianza con mas de 100 empresas a nivel nacional e internacional, para que nuestros usuarios
+                puedan adquirir los mejores productos del mercado de las grades empresas en la industria"</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footerBody">
+            <div>
+                <h4>¿Quienes somos?</h4>
+                <p>Taller Curso Full Stack Intermedio</p>
+            </div>
+            <div>
+                <h4>Contáctenos</h4>
+                <div class="redes">
+                    <div>
+                        <img src="css/img/face.png">
+                        <h5>Facebook</h5>
+                    </div>
+                    <div>
+                        <img src="css/img/youtube.png">
+                        <h5>Youtube</h5>
+                    </div>
+                    <div>
+                        <img src="css/img/whatsapp.png">
+                        <h5>WhatsApp</h5>
+                    </div>
+                    <div>
+                        <img src="css/img/telefono.png">
+                        <h5>Celular</h5>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h4>¿Como llegar?</h4>
+                <center><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.2623288091277!2d-74.07325387862001!3d4.629751528229307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc4a8521425c096!2sFundaci%C3%B3n%20Universitaria%20UNINPAHU%20Sede%2016!5e0!3m2!1ses-419!2sco!4v1603910030047!5m2!1ses-419!2sco"
+                        width="280" height="180" frameborder="0" style="border:0; padding-top: 25px;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe></center>
+            </div>
+        </div>
+        <div class="footerFin">
+            <p class="terminos">Copyright© 2023 Carlos Alvis</p>
+            <p class="terminos">Términos y Condiciones</p>
+        </div>
+    </footer>
+</body>
+</html>
+<script type="text/javascript">
+    window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+</script>
